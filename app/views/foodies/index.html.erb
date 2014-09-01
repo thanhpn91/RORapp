@@ -1,0 +1,33 @@
+<h1>Listing foodies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Address</th>
+      <th>Description</th>
+      <th>Photos</th>
+      <th>Category</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @foodies.each do |foody| %>
+      <tr>
+        <td><%= foody.title %></td>
+        <td><%= foody.address %></td>
+        <td><%= foody.description %></td>
+        <td><%= foody.photos %></td>
+        <td><%= foody.category %></td>
+        <td><%= link_to 'Show', foody %></td>
+        <td><%= link_to 'Edit', edit_foody_path(foody) %></td>
+        <td><%= link_to 'Destroy', foody, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Foody', new_foody_path %>

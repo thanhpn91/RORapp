@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @foody.title %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @foody.address %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @foody.description %>
+</p>
+
+<p>
+  <strong>Photos:</strong>
+  <%= @foody.photos %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @foody.category %>
+</p>
+
+<%= link_to 'Edit', edit_foody_path(@foody) %> |
+<%= link_to 'Back', foodies_path %>

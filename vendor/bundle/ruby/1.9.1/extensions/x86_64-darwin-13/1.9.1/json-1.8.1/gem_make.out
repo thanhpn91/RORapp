@@ -1,0 +1,12 @@
+/Users/mc975/.rvm/rubies/ruby-1.9.3-p547/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+make  install
+/usr/bin/install -c -m 0755 parser.bundle /Users/mc975/Downloads/web-crawler/webapp/foody_crawler/vendor/bundle/ruby/1.9.1/gems/json-1.8.1/ext/json/ext/parser/.gem.20140831-41485-12g4tsq/json/ext
+installing default parser libraries
