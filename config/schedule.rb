@@ -18,6 +18,6 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-every 2.minutes do
-  runner "Foody.call_parse", :environment => :development
-end
+# every 2.minutes do
+#   runner "Foody.call_parse"
+# end
