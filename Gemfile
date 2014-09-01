@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 # use to call a function after period of times
 
+# scheduler gem
+gem 'rufus-scheduler', '~> 3.0.9'
 gem 'whenever','~>0.9.2', :require => false
 # Using to parse HTML
 gem 'nokogiri'
