@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 # use to call a function after period of times
 
+gem 'clockwork'
 # scheduler gem
 gem 'rufus-scheduler', '~> 3.0.9'
 gem 'whenever','~>0.9.2', :require => false
