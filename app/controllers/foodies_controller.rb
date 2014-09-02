@@ -7,6 +7,7 @@ class FoodiesController < ApplicationController
   # GET /foodies.json
   def index
     @foodies = Foody.all
+
   end
 
   # GET /foodies/1
